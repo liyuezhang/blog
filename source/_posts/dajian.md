@@ -27,5 +27,5 @@ hexo init、npm install 和 npm install hexo-deployer-git（此时当前分支�
 
 # 三、本地资料丢失后的流程当重装电脑之后，或者想在其他电脑上修改博客，可以使用下列步骤：
 1. 使用git clone git@github.com/liyuezhang/liyuezhang.github.io.git拷贝仓库（默认分支为hexo）；
-2. 在本地新拷贝的http://CrazyMilk.github.io文件夹下通过Git bash依次执行下列指令：
+2. 在本地新拷贝的http://liyuezhang.github.io文件夹下通过Git bash依次执行下列指令：
 npm install hexo、npm install、npm install hexo-deployer-git（记得，不需要hexo init这条指令）。
