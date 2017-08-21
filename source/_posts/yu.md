@@ -19,12 +19,12 @@ CORS（Cross-Origin Resource Sharing）跨域资源共享，定义了必须在�
     xhr.send();
 </script>
 以上的trigkit4是相对路径，如果我们要使用CORS，相关Ajax代码可能如下所示：
-
-<script type="text/javascript">
-    var xhr = new XMLHttpRequest();
-    xhr.open("￼GET", "http://segmentfault.com/u/trigkit4/",true);
-    xhr.send();
-</script>
+    
+    <script type="text/javascript">
+        var xhr = new XMLHttpRequest();
+        xhr.open("￼GET", "http://segmentfault.com/u/trigkit4/",true);
+        xhr.send();
+    </script>
 代码与之前的区别就在于相对路径换成了其他域的绝对路径，也就是你要跨域访问的接口地址。
 
 服务器端对于CORS的支持，主要就是通过设置Access-Control-Allow-Origin来进行的。如果浏览器检测到相应的设置，就可以允许Ajax进行跨域的访问。
